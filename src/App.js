@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import MainField from './core/MainField'
+import Header from './core/Header'
+import InfoPanel from './core/InfoPanel'
+import Footer from './core/Footer'
+import './styles/app.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<> 
+    <Header/>
+    <MainField/>
+    <InfoPanel/>
+    <Footer/>
+    </>
   );
 }
 

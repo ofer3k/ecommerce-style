@@ -1,0 +1,15 @@
+
+.header{
+    width: 70vw;
+    margin: 0 auto;
+    direction: rtl;
+    line-height: 0.3;
+}
+.top_headline{
+    color: #02253f;
+    font-size:24px ;
+    font-weight: 600;
+}
+.top_headline__seconde{
+    color: gray;
+}

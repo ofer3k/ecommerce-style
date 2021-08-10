@@ -1,0 +1,102 @@
+.info_panel_container{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: #ecf2f7;
+}
+.parent_panel_container {
+    display: grid;
+    width: 70vw;
+    height: 300px;
+    margin: auto;
+    text-align: right;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    }
+    
+    .div1_panel_container { grid-area: 1 / 4 / 2 / 5; }
+    .div2_panel_container {
+        cursor: pointer;
+        height: 220px;
+        text-align: center;
+         grid-area: 1 / 3 / 2 / 4;
+        border: 1px solid blue;
+        border-radius: 6px;
+        }
+    .div3_panel_container {
+        cursor: pointer; height: 220px;
+        text-align: center; 
+        grid-area: 1 / 2 / 2 / 3;
+        border: 1px solid blue;
+        border-radius: 6px;
+
+     }
+    .div4_panel_container {
+        cursor: pointer;border-radius: 6px;
+        height: 220px;
+        text-align: center;  
+        grid-area: 1 / 1 / 2 / 2;
+        border: 1px solid blue;
+     }
+     .div2_panel_container:hover {   
+        transform: scale(1.1);
+        background-color: white;
+        transition: transform 630ms ease-in-out; }    
+    .div2_panel_container:not(:hover) {   
+    transform: scale(1);
+    transition: transform 630ms ease-in-out; }
+    .div3_panel_container:hover {   
+        transform: scale(1.1);
+        background-color: white;
+        transition: transform 630ms ease-in-out; }    
+    .div3_panel_container:not(:hover) {   
+    transform: scale(1);
+    transition: transform 630ms ease-in-out; }
+    .div4_panel_container:hover {   
+        transform: scale(1.1);
+        background-color: white;
+        transition: transform 630ms ease-in-out; }    
+    .div4_panel_container:not(:hover) {   
+    transform: scale(1);
+    transition: transform 630ms ease-in-out; }
+
+     
+    .first_square{
+        height: 100%;
+        width: 100%;
+    }
+
+    .first_square__title{
+        color: #02253f;
+        font-size:24px ;
+        font-weight: 600;
+    }
+    .hr_bottom{
+        float: right;
+        height: 1px;
+        width: 60px;
+        background-color: #3f7fb1;
+    }
+    .first_square__text{
+        color: #02253f;
+        font-size:12px ;
+        font-weight: 500;    
+    }
+    .seconde_square{
+        max-width: 160px;
+  text-align: center;
+    }
+    .svg_icon{
+        width: 100px;
+        height: 100px;
+    }
+.svg_icon__text{
+    color: #02253f;
+    font-size:20px ;
+    font-weight: 600
+}
+.service_descriptiom{
+    
+}
